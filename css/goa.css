@@ -9,6 +9,7 @@ a{
   color: #000;
 }
 .navbar{
+  
   background-color: #fff;
   height: 80px;
   padding: 10px;
@@ -36,15 +37,27 @@ a{
   margin-top: 8px;
 }
 .menu-icon{
-  font-size: 25px;
-  margin-left: 20px;
-  cursor: pointer;
-  color: #000;
+  
+  border:2px solid black;
+  border-radius: 30px;
+  background-color: black;
+  color:azure;
+  padding:9px;
+  font-size: 20px;
+  text-align: center;
+  width:70px;
+  height:auto;
+  font-weight: bold;
+  position: relative;
+  top:20px;
+  margin:7px;
 
 }
 .menu-icon:hover{
   transform: scale(1.2);
   transition: 0.4s;
+  color:#000;
+  background-color: whitesmoke;
   
   
 }
@@ -76,7 +89,7 @@ a{
             align-items: flex-end;
         }
           .baga-beach-img{
-          height: 540px;
+          height: 550px;
           width: 770px;
           margin: 10px;
           margin-right: 100px;  
@@ -91,7 +104,7 @@ a{
           }
           .beach-img{
             height: 260px;
-            width: 320px;
+            width: 290px;
             margin-top: 15px ;            
             border:2px solid #fff;     
             border-radius: 8px;  
@@ -110,8 +123,7 @@ a{
           .div{
             display: flex;
             justify-content: space-evenly;
-            margin-top: 5px;
-            margin-bottom: 5px;
+          
             
         }
           .div-1{
@@ -312,7 +324,7 @@ a{
   }
 
   .title{
-      font-size: 30px;
+      font-size: 20px;
       position: relative;
       left: 1px;
       padding-bottom: 0px;
@@ -320,12 +332,14 @@ a{
   }
   .menu-icon{
       font-size: 15px;
-      margin-left: 10px;
+
+      margin-left: 5px;
+      padding: 3px;
   }
 
   .navbar-menu{
       position: relative;
-      top: -5px;
+      top: -16px;
       right: 15px;
   }
   .baga-beach-img{
@@ -355,11 +369,11 @@ margin-right: auto;
       align-items: center;
   }
   .address{
-    font-size: 20px;
+    font-size: 16px;
     position: relative;
     bottom:25px;
-    left:20px;   
-    text-align: center;   
+    left:50px;   
+    
    }
    .food{
     display:flex;
@@ -402,7 +416,7 @@ margin-right: auto;
 }
 
 .social-m{
-  height: 25px;
+  height: 32px;
 }
   }
  
@@ -429,13 +443,17 @@ margin-right: auto;
         margin-top: 2px;
     }
     .menu-icon{
-        font-size: 15px;
+       
         margin-left: 10px;
+        margin-top: 11px;
+        font-size: 15px;
+        padding: 3px 1px;
+
     }
 
     .navbar-menu{
         position: relative;
-        top: -5px;
+        top: -25px;
         right: 15px;
     }
     .baga-beach-img{  
@@ -491,7 +509,7 @@ margin-right: auto;
       font-size: 15px;
   }
   .footer-img{
-      height: 120px;
+      height: 150px;
       position: relative;
       top: 5px;
   }
