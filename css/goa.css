@@ -89,7 +89,7 @@ a{
             align-items: flex-end;
         }
           .baga-beach-img{
-          height: 540px;
+          height: 550px;
           width: 770px;
           margin: 10px;
           margin-right: 100px;  
@@ -103,7 +103,7 @@ a{
             box-shadow: 4px 8px 20px 0px gray ;
           }
           .beach-img{
-            height: 240px;
+            height: 260px;
             width: 290px;
             margin-top: 15px ;            
             border:2px solid #fff;     
