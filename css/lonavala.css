@@ -62,9 +62,10 @@ body{
 }
 .navbar-menu{
     position: relative;
-    top: -5px;
+    top: -25px;
     display: flex;
     flex-direction: row;
+
     
 }
    
