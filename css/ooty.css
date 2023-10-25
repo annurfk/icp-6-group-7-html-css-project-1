@@ -1,13 +1,10 @@
 body{
     background-color:#000000;
     margin: 0;
-    padding-top: 100px;
+    padding-top: 0;
 }
 .navbar{
-    background-color: #ffffff;
-    opacity: 0.4;
-    position: fixed;
-    margin-top: -100px;
+    background-color: #fff;
     height: 80px;
     padding: 10px;
     width: 100%;
@@ -15,48 +12,56 @@ body{
     flex-direction: row;
     justify-content: space-between;
 }
-.navbar:hover{
-    opacity: 1;
-    transition: 0.3s;
-}
+
 .navbar-icon{
-    margin: 20px;
-    margin-left: 150px;
-    margin-top: -15px;
-    height: 150px;
-} 
+    padding-left: 40px;
+    height: 100px;
+
+}
 .tit{
     text-align: center;
 }
 .title{
     font-size: 50px;
     font-weight: bold;
-    color: #daa520;
+    color: #06038D;
     position: relative;
-    left: 10px;
+    left: 100px;
     padding-bottom: 15px;
     margin-top: 8px;
 }
-.btn-container{
-    padding: 5px;
-    margin: 10px;
-    display: flex;
-    flex-wrap: wrap;
+.menu-icon{
+    border:2px solid black;
+    border-radius: 30px;
+    background-color: black;
+    color:azure;
+    padding:9px;
+    font-size: 20px;
+    text-align: center;
+    width:70px;
+    height:auto;
+    font-weight: bold;
+    position: relative;
+    top:20px;
+    margin:7px;
+   
+    
+
 }
-.btn{
-    padding:5px 20px;
-    margin: 10px;
-    font-size: 15px;
-    font-weight: 15px;
-    border-radius: 20px;
-    background: #000000;
-    color: #ffffff;
-} 
-.btn:hover{
-    transition: 0.5s;
-    background: #daa520;
-    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 2);
-}  
+
+.menu-icon:hover{
+    color:#000;
+    background-color: whitesmoke;
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+.navbar-menu{
+    position: relative;
+    top: -5px;
+    display: flex;
+    flex-direction: row;
+    
+}
 .image-container{
     display: flex;
     flex-wrap: wrap;
@@ -170,7 +175,8 @@ body{
     text-align: center;
 }
 .desti-distance{
-    font-size: 18px;
+    font-size: 20px;
+    color: #06038D;
 }
 .destination-card{
     background:#929293;
@@ -185,45 +191,66 @@ body{
 .footer{
     background: #fff;
     height: 300px;
-    padding: 50px;
+    padding: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    
 }
+
 .footer-img{
-    height: 150px;
+    height: 250px;
     position: relative;
-    top: 25px;
+    bottom: 20px;
+    right: 30px;
 }
+.input{
+    border-radius: 15px;
+    background-color: #fff;
+    color: #000;
+}
+.h2{
+    margin-top: -50px;
+}
+
+.button{
+    border-radius: 10px;
+    
+}
+
 @media screen and (min-width: 500px) and (max-width:768px){
-        body{
-            padding-top: 200px
-        }
-        .navbar{
-            height: 200px;
-            padding: 10px;
-            margin-top: -200px
-        }
-        .navbar-icon{
-            margin-left: 40px;
-            margin: 0; 
-            padding: 0;
-        }
-        .tit{
-            margin: 0;
-            padding: 10px;
-            margin-left: -15px;
-            margin-top: -20px;
-        }
-        .btn-container{
-            margin: 20px;
-            padding: 5px;
-            display: flex;
-        }
-        .btn{
-            margin: 10px;
-            padding: 5px auto;
-        }
+    .navbar{
+        height: 40px;
+        display: flex;
+        
+    }
+    .navbar-icon{
+        padding-left: 10px;
+        height: 70px;
+        position: relative;
+        bottom: 10px;
+    
+    }
+    
+    .title{
+        font-size: 20px;
+        position: relative;
+        left: 1px;
+        padding-bottom: 0px;
+        margin-top: 2px;
+    }
+    .menu-icon{
+        font-size: 15px;
+        margin-left: 5px;
+        padding: 3px;
+        
+    }
+    
+    .navbar-menu{
+        position: relative;
+        top: -16px;
+        right: 15px;
+    }
         .image-container{
             margin-left: auto;
             margin-right: auto;
@@ -268,22 +295,147 @@ body{
         }
         .footer{
             padding: 30px;
+            justify-content: space-between;
+            
         }
         .s-column{
             font-size: 13px;
             padding-right: 20px;
             padding-top: 35px;
             padding-left: 20px;
-        }  
+        }
+        .h2{
+            font-size: 15px;
+            position: relative;
+            margin: 10px 0;
+        }
         .footer-img{
-            height: 120px;
+            height: 100px;
             position: relative;
             top: 5px;
         }
+        
         .social-m{
-            height: 25px;
-        }  
+            height: 32px;
+        }
 }  
 @media screen and (min-width:768px) and (max-width:992px){
+    .navbar{
+        height: 40px;
+        display: flex;
+        
+    }
+    .navbar-icon{
+        padding-left: 10px;
+        height: 70px;
+        position: relative;
+        bottom: 10px;
+    
+    }
+    
+    .title{
+        font-size: 30px;
+        position: relative;
+        left: 1px;
+        padding-bottom: 0px;
+        margin-top: 2px;
+    }
+    .menu-icon{
+        margin-left: 10px;
+        margin-top: 11px;
+        font-size: 15px;
+        padding: 3px 1px;
+    }
+    
+    .navbar-menu{
+        position: relative;
+        top: -25px;
+        right: 15px;
+    }
+        .info-division{
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .footer{
+            padding: 30px;
+        }
+        .s-column{
+            font-size: 13px;
+            padding-right: 20px;
+            padding-top: 35px;
+            padding-left: 20px;
+        }
+        .h2{
+            font-size: 15px;
+            padding-top: 25px;
+        }
+        .footer-img{
+            height: 150px;
+            position: relative;
+            top: 5px;
+        }
+        
+        .social-m{
+            height: 25px;
+        }
+        
+} 
+@media screen and (min-width:992px) and (max-width:1350px){
+    .navbar{
+        height: 40px;
+        display: flex;
+        
+    }
+    .navbar-icon{
+        padding-left: 10px;
+        height: 70px;
+        position: relative;
+        bottom: 10px;
+    
+    }
+    
+    .title{
+        font-size: 30px;
+        position: relative;
+        left: 1px;
+        padding-bottom: 0px;
+        margin-top: 2px;
+    }
+    .menu-icon{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    
+    .navbar-menu{
+        position: relative;
+        top: -25px;
+        right: 15px;
+    }
+    .footer{
+        padding: 30px;
+    }
+    
+    
+    .s-column{
+        font-size: 13px;
+        padding-right: 20px;
+        padding-top: 35px;
+        padding-left: 20px;
+    }
+    .h2{
+        font-size: 15px;
+        margin: 10px;
 
-}  
+        
+    }
+    .footer-img{
+        height: 150px;
+        position: relative;
+        top: 5px;
+        right: 17px;
+    }
+    
+    .social-m{
+        height: 25px;
+    }
+} 

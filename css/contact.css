@@ -7,56 +7,68 @@
   a{
     text-decoration: none;
     color: #000;
-  }
-  .navbar{
+    
+}
+.navbar{
     background-color: #fff;
-    height: 100px;
-    padding: 20px;
+    height: 80px;
+    padding: 10px;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-  }
-  
-  .navbar-icon{
+}
+
+.navbar-icon{
     padding-left: 40px;
     height: 100px;
-  
-  }
-  .tit{
+
+}
+.tit{
     text-align: center;
-  }
-  .title{
+}
+.title{
     font-size: 50px;
     font-weight: bold;
     color: #06038D;
     position: relative;
-    left: 40px;
+    left: 100px;
     padding-bottom: 15px;
     margin-top: 8px;
-  }
-  .menu-icon{
-    font-size: 25px;
-    margin-left: 20px;
-    cursor: pointer;
-    color: #000;
-  
-  }
-  .menu-icon:hover{
+}
+.menu-icon{
+    border:2px solid black;
+    border-radius: 30px;
+    background-color: black;
+    color:azure;
+    padding:9px;
+    font-size: 18px;
+    text-align: center;
+    width:95px;
+    height:auto;
+    font-weight: bold;
+    position: relative;
+    top:20px;
+    margin:7px;
+   
+    
+
+}
+
+.menu-icon:hover{
+    color:#000;
+    background-color: whitesmoke;
     transform: scale(1.2);
     transition: 0.4s;
-    
-    
-  }
-  .navbar-menu{
+}
+.navbar-menu{
     position: relative;
     top: -5px;
     display: flex;
     flex-direction: row;
     
-  
-    
-  }body {
+}
+body {
   
     min-height: 100vh;
     background-color: black;

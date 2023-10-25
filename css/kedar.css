@@ -32,32 +32,37 @@ a{
  font-weight: bold;
  color: #06038D;
  position: relative;
- left: 40px;
+ left: 100px;
  padding-bottom: 15px;
  margin-top: 8px;
 }
 .menu-icon{
- font-size: 25px;
- margin-left: 20px;
- cursor: pointer;
- color: #000;
-
+ border:2px solid black;
+ border-radius: 30px;
+ background-color: black;
+ color:azure;
+ padding:9px ;
+ font-size: 20px;
+ text-align: center;
+ width: 70px;
+ height: auto;
+ font-weight: bold;
+ position: relative;
+ top:20px;
+ margin: 7px;
 }
 .menu-icon:hover{
+color: #000;
+ background-color: whitesmoke;
  transform: scale(1.2);
  transition: 0.4s;
- 
- 
-}
+ }
 .navbar-menu{
  position: relative;
  top: -5px;
  display: flex;
  flex-direction: row;
- 
-
- 
-}
+ }
   
  
  .main-heading{
@@ -71,23 +76,31 @@ a{
  }
  
  .shiv-img{
-    height:240px ;
-    width:280px ;
+    height:340px ;
+    width:340px ;
     margin-top:15px ;
     border:2px solid #fff ;
     border-radius:8px;
     padding:5px;
     margin: 5px;
  }
+ .shiv-img:hover{
+   box-shadow:0px 0px 5px 2px #fff ;
+     transition:0.5s;
+ }
  .kedarnath-img{
-    height: 500px;
-    width: 450px;
+    height: 750px;
+    width: 550px;
     padding: 10px;
     margin: 10px;
     margin-right:50px ;
     border-radius: 20px;
     border:2px solid #fff ;
 
+ }
+ .kedarnath-img:hover{
+   box-shadow:0px 0px 5px 2px #fff ;
+     transition:0.5s;
  }
  .div{
     margin-top: 5px;
@@ -131,17 +144,29 @@ a{
     margin: 20px 30px;
     padding:20px;
     border-radius: 30px;
- }   
+ }
+ . .history-block:hover{
+   box-shadow:0px 0px 5px 2px #fff ;
+     transition:0.5s;
+ }  
  .headings{
     color:azure;
     font-size:30px;
     display: block;
     text-align: center;
      }
+     .headings:hover{
+      box-shadow:0px 0px 5px 2px #fff ;
+     transition:0.5s;
+     }
  .discription{
     color: azure;
     font-family: sans-serif;
     padding: 20px;
+}
+.discription:hover{
+   box-shadow:0px 0px 5px 2px #fff ;
+     transition:0.5s;
 }
  .points{
     padding:7px;
@@ -159,6 +184,10 @@ a{
     padding: 20px;
     margin:10px;
  }
+ .blocks:hover{
+   box-shadow:0px 0px 5px 2px #fff ;
+     transition:0.5s;
+ }
  .food{
     display: flex;
     flex-wrap: wrap;
@@ -174,6 +203,10 @@ a{
     padding:2px;
     margin: 5px;
     position: relative;
+}
+.food-cards:hover{
+   box-shadow:0px 0px 5px 2px #fff ;
+     transition:0.5s;
 }
  .food-img{
     height:250px;
@@ -204,6 +237,10 @@ a{
    height: auto;
    width:300px;
    margin:30px;
+}
+.place-card:hover{
+   box-shadow:0px 0px 5px 2px #fff ;
+     transition:0.7s;
 }
 .place-card-img{
    height: 230px;
@@ -236,6 +273,10 @@ a{
    height: auto;
    width:340px;
    margin:30px;
+}
+.hotel-card:hover{
+   box-shadow:0px 0px 5px 2px #fff ;
+     transition:0.5s;
 }
 .hotel-img{
    height: 200px;
@@ -296,10 +337,11 @@ a{
 }
   .map{
     align-items: center;
-   }.footer{
+   }
+   .footer{
       background: #fff;
-      height: 300px;
-      padding: 50px;
+      height: 350px;
+      padding: 20px;
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
@@ -307,22 +349,23 @@ a{
   }
   
   .footer-img{
-      height: 150px;
+      height: 250px;
       position: relative;
-      top: 25px;
+      bottom:20px;
+      right: 30px;
   }
   .input{
       border-radius: 15px;
       background-color: #fff;
       color: #000;
   }
+  .h2{
+   margin-top: -50px;
+  }
   
   .button{
-      border-radius: 10px;
-      padding: 5px;
-  
-      
-  }
+      border-radius:15px;
+      }
     
   @media screen and (min-width: 500px) and (max-width:768px){
 
