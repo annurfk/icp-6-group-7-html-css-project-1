@@ -183,7 +183,7 @@ body{
     margin: 10px;
     padding: 10px;
     padding-bottom: 20px;
-    height: 340px;
+    height: 360px;
     width: 320px;
     border-radius: 15px;
     border: 3px solid white;
@@ -212,10 +212,29 @@ body{
 .h2{
     margin-top: -50px;
 }
+.btn{
+    background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn:hover{
+    background-image: linear-gradient(to right, #757F9A 0%, #D7DDE8  51%, #757F9A  100%);
+    background-position: right center; /* change the direction of the change here */
+    color:#000;
+    text-decoration: none;
+}
 
 .button{
-    border-radius: 10px;
-    
+    border-radius: 10px;  
 }
 
 @media screen and (min-width: 500px) and (max-width:768px){
@@ -318,6 +337,11 @@ body{
         .social-m{
             height: 32px;
         }
+        .btn{
+            margin: 10px;
+            padding: 10px 15px;
+            size: 25px;  
+        }
 }  
 @media screen and (min-width:768px) and (max-width:992px){
     .navbar{
@@ -378,6 +402,11 @@ body{
         .social-m{
             height: 25px;
         }
+        .btn{
+            margin: 10px;
+            padding: 10px 15px;
+            size: 25px;  
+        }
         
 } 
 @media screen and (min-width:992px) and (max-width:1350px){
@@ -437,5 +466,10 @@ body{
     
     .social-m{
         height: 25px;
+    }
+    .btn{
+        margin: 10px;
+        padding: 10px 15px;
+        size: 25px;  
     }
 } 
