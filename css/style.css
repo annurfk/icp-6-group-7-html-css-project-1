@@ -9,12 +9,12 @@ a{
 }
 .float{
     position: fixed;
-    left: 1200px;
-    color: #fff;
+    left: 1370px;
     border: 2px dotted gray;
     border-radius: 25px;
     top: 300px;
     cursor: pointer;
+    width: 300px;
 
 }
 
@@ -32,9 +32,9 @@ a{
 }
 table{
     position: absolute;
-    bottom: 40px;
-    left: 130px;
-    
+    bottom: 20px;
+    left: 60px;
+    color: aqua;
 }
 
 .video{
@@ -42,14 +42,16 @@ table{
 }
 .float-h1{
     position: absolute;
-    top: 5px;
-    left: 150px;
+    left: 83px;
+    color: goldenrod;
 }
 .float-h6{
     position: absolute;
-    top: 40px;
-    left: 160px;
-    font-size: 10px;
+    top: 20px;
+    left: 68px;
+    font-size: 18px;
+    color: goldenrod;
+
 }
 .navbar{
     background-color: #fff;
