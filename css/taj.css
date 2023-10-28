@@ -75,7 +75,7 @@ body{
    }
    .taj-mahal-img{
     height: 500px;
-    width: 700px;
+    width: 750px;
     margin-left: 10px;       
     border-radius: 20px;
     border: 2px solid #fff;
@@ -89,7 +89,7 @@ body{
     
     .taj-img{
       height: 240px;
-      width: 280px;        
+      width: 260px;        
       border:2px solid #fff; 
       margin-top: 5px;    
       border-radius: 8px; 
@@ -103,6 +103,7 @@ body{
     }
     .div{
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-evenly;
   }
     .div-1{
@@ -304,9 +305,10 @@ body{
 
 }
 .map{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
     border: 2px solid rgb(246, 12, 12);
-    position: relative;
-    left:400px;
    }
    .Wish{
     text-align: center;
@@ -360,7 +362,188 @@ body{
     border-radius: 10px;
     
 }
-   @media screen and (min-width:500px) and (max-width:600px){
+@media only screen and (min-width:300px) and (max-width:400px){
+    .navbar{
+        height: 30px;
+        display: flex;
+        
+    }
+    .navbar-icon{
+        height: 30px;
+        position: relative;
+        bottom: 5px;
+        left:-20px;
+    
+    }
+    
+    .title{
+        font-size: 15px;
+        position: relative;
+        left:-20px;
+        padding-bottom: -10px;
+        margin-top: 1px;
+    }
+    .nav-btn{
+        border-radius: 20px;
+        padding:7px;
+        font-size: 8px;
+        width:50px;
+        height:auto;
+        position: relative;
+        left:-20px;
+        top:-15px;
+        margin:1px;}
+    
+    .navbar-menu{
+        display: flex;
+        position: relative;
+        top: -5px;
+        right: 15px;
+    }
+.navbar-icon{
+     padding-left: 10px;
+     height: 80px;
+     position: relative;
+     bottom:15px;
+ }
+ .main-heading{
+    font-size: 20px;
+    margin-left: 60px;
+   }
+   .address{
+    font-size: 10px;
+    position: relative;
+    bottom:15px;
+    left:50px;
+   }
+   .tag-line{
+    font-size: 10px;
+   }
+   .taj-mahal-img{
+    height: 200px;
+    width: 280px;
+    margin-left:10px; 
+    margin-top: 30px;      
+    }
+    .taj-img{
+      height: 75px;
+      width: 80px;        
+      margin-top: 15px;    
+      margin-left:5px; 
+    }
+    .Div{
+        display: flex;
+    }
+    
+    .history-block{
+        background-color:#262626;
+        border:2px solid white;
+        margin:15px 5px;
+        padding:10px;
+        
+       }
+    .discription{
+        font-size: 13px;
+        padding: 10px;
+       }
+       .middle-part{
+        width:350px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left:-10px;
+       }
+       .cards-container{
+        display:flex;
+        justify-content:space-evenly;
+        flex-wrap: wrap;
+        height: auto;
+       }
+       .food-cards{
+        height: auto;
+        width:150px;
+        margin:15px;
+       }
+       .food-img{
+        padding:4px;
+        height: 130px;
+        width:120px;
+        box-shadow: 0 0 4px 2px grey;
+       }
+       .food-name{
+        font-size: 15px;
+        margin-top: 8px;
+       }
+       .food-discription{
+        font-size: 13px;
+        padding:5px;
+        margin:5px;
+       }
+    .place-name{
+        color:#262626;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .place-info{
+        color:#262626;
+        padding:20px;
+        margin:8px;
+        font-family:initial;
+        text-align: justify;
+    }
+       .map{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 250px;
+        width:310px;
+       }
+       .Wish{
+        font-size: 12px;
+        text-align: center;
+        Color:whitesmoke;
+       }
+       .footer{
+        padding: 10px;
+    }
+    .s-column{
+        font-size: 5px;
+        padding-right: 5px;
+        padding-top: 15px;
+        padding-left: 8px;
+    }
+    .h2{
+        font-size: 11px;
+    }
+    .footer-img{
+        height: 70px;
+        position: relative;
+        bottom:10px;
+        left:-2px;
+    }
+    .h2{
+        margin-top: -20px;
+        margin-left:15px;
+    }
+    .btn{
+        background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%);
+        margin: 6px;
+        padding: 10px 10px;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        display: block;
+    }
+    
+    .social-m{
+        height: 19px;
+    }
+    
+
+}
+   @media screen and (min-width:400px) and (max-width:600px){
     .navbar{
         height: 40px;
         display: flex;
@@ -565,14 +748,14 @@ body{
         font-size: 15px;
        }
        .taj-mahal-img{
-        height: 450px;
-        width: 450px;
-        margin-left: 5px; 
-        margin-top: 45px;      
+        height: 480px;
+        width: 550px;
+        margin-left: 20px; 
+        margin-top: 40px;      
         }
         .taj-img{
-          height: 120px;
-          width:200px;        
+          height: 220px;
+          width:255px;        
           margin-top: 3px;    
           margin-left:10px; 
 
@@ -582,14 +765,19 @@ body{
     padding:17px;
     
    }
+   .blocks{
+    padding:5px;
+    margin: 13px 18px;
+   }
 .discription{
-    padding: 17px;
+    padding: 20px;
    }
    .middle-part{
-    width:700px;
+    width:650px;
     display: flex;
     flex-wrap: wrap;
-    margin-left:-10px;
+    margin:13px -25px;
+    
    }
    .cards-container{
     display:flex;
@@ -649,10 +837,11 @@ body{
     box-shadow: 0 0 5px 3px grey;
 }
 .map{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: 350px;
     width:490px;
-    position: relative;
-    left:120px;
    }
    .Wish{
     font-size: 19px;
@@ -683,3 +872,36 @@ body{
 }
 
    }
+   @media screen and (min-width:800px) and (max-width:1250px){
+    .taj-mahal-img{
+        height: 450px;
+        width: 520px;
+        margin-left: 20px; 
+        margin-top: 20px;      
+        }
+        .taj-img{
+          height: 220px;
+          width:255px;        
+          margin-top: 9px;    
+          margin-left:10px; 
+
+   }
+   .history-block{
+    margin:13px 18px;
+    padding:17px;
+    
+   }
+   .blocks{
+    padding:5px;
+    margin: 13px 18px;
+   }
+.discription{
+    padding: 20px;
+   }
+   .middle-part{
+    width:1150px;
+    margin:13px 10px;
+    
+   }
+   
+}
