@@ -6,7 +6,52 @@ body{
 a{
     text-decoration: none;
     color: #000;
-    
+}
+.float{
+    position: fixed;
+    left: 1370px;
+    border: 2px dotted gray;
+    border-radius: 25px;
+    top: 300px;
+    cursor: pointer;
+    width: 300px;
+
+}
+
+.float>video{
+    width: 100%;
+}
+.float>h1{
+    position: absolute;
+}
+.float>h6{
+    position: absolute;
+}
+.float>table{
+    position: absolute;
+}
+table{
+    position: absolute;
+    bottom: 20px;
+    left: 60px;
+    color: aqua;
+}
+
+.video{
+    border-radius: 25px;
+}
+.float-h1{
+    position: absolute;
+    left: 83px;
+    color: goldenrod;
+}
+.float-h6{
+    position: absolute;
+    top: 20px;
+    left: 68px;
+    font-size: 18px;
+    color: goldenrod;
+
 }
 .navbar{
     background-color: #fff;
@@ -16,6 +61,8 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    position: fixed;
+    top: -5px;
 }
 
 .navbar-icon{
@@ -40,10 +87,10 @@ a{
     border-radius: 30px;
     background-color: black;
     color:azure;
-    padding: 9px;
+    padding:9px;
     font-size: 20px;
     text-align: center;
-    width:80px;
+    width:70px;
     height:auto;
     font-weight: bold;
     position: relative;
@@ -72,7 +119,7 @@ a{
     height: 800px;
     text-align: center;
     border-radius: 5px;
-    margin-top: -25px;
+    margin-top: 100px;
     margin-bottom: 50px;
     
 }
@@ -146,7 +193,8 @@ a{
 .btn{
     background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%);
     margin: 10px;
-    padding: 15px 45px;
+    font-size: 15px;
+    padding: 15px 35px;
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
@@ -180,6 +228,7 @@ a{
 
 }
 
+
 .t-title{
     color: aliceblue;
     text-align: center;
@@ -202,7 +251,7 @@ a{
 .op1:hover{
     transform: scale(0.9);
     transition: 0.4s ease;
-    box-shadow: 4px 8px 20px 0px gray ;
+    box-shadow: 6px 8px 20px 0px gray ;
 }
 
 .op-img{
@@ -215,7 +264,73 @@ a{
     text-align: center;
     padding-top: 10px;
 }
+.main-review{
+    height: 650px;
+    border-style:solid;
+    border-width: 2px 0 2px 0 ;
+    border-color: aliceblue;
 
+}
+.review{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.review-cards{
+    background-color: #fff;
+    margin: 15px;
+    border-radius: 30px;
+    text-align: center;
+    width: 260px;
+    height: 400px;
+    cursor: pointer;
+    padding: 20px;
+}
+.review-cards:hover{
+    transform: scale(0.9);
+    transition: 0.4s ease;
+    box-shadow: 6px 8px 20px 0px gray ;
+}
+.cust-img{
+    height: 190px;
+    width: 160px;
+    border-radius: 50%;
+}
+
+.cust-name{
+    font-size: 18px;
+    margin-bottom: -10px;
+}
+
+.cust-review{
+    text-align: justify;
+}
+
+.review-btn{
+    background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%);
+    margin: 10px;
+    font-size: 15px;
+    padding: 15px 35px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 18px;
+}
+
+.review-btn:hover{
+    background-image: linear-gradient(to right, #757F9A 0%, #D7DDE8  51%, #757F9A  100%);
+    background-position: right center; /* change the direction of the change here */
+    color:#000;
+    text-decoration: none;
+}
 .footer{
     background: #fff;
     height: 300px;
@@ -236,6 +351,12 @@ a{
     border-radius: 15px;
     background-color: #fff;
     color: #000;
+}
+
+.kahi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .h2{
     margin-top: -50px;
@@ -337,6 +458,7 @@ a{
         flex-direction:column;
         align-items:center;
     }
+
     
     .footer{
         padding: 30px;
