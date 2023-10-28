@@ -357,6 +357,11 @@ body{
     color:#000;
     text-decoration: none;
 }
+.kahi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 .button{
     border-radius: 10px;
