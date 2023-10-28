@@ -68,11 +68,11 @@ a{
 
 .heading{
   text-align: center;
-    background-color: azure ;
-    width: 150px;
+    color: #fff;
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
+    font-size: 30px;
 }
 .about-info{
 
@@ -86,12 +86,11 @@ a{
 }
 h2{
     text-align: center;
-    background-color: white ;
-    width: 230px;
+   color: #fff;
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 25px;
+    font-size: 30px;
 
 }
 .cards-container{
@@ -112,7 +111,7 @@ h2{
     height: 120px;
     width:auto;
     border-radius: 15px 15px 0 0;
-   margin: 30px 63px;
+   margin: 30px 70px;
    }
    .card-title{
     color:black;
@@ -122,13 +121,65 @@ h2{
     margin-top: 10px;
    }
    .card-description{
-    color:#262626;
+    color:black;
     padding:15px;
     margin:20px;
     font-family:initial;
     text-align: justify;
     font-size: 20px;
    }
+   .cards-container{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    height: auto;
+   }
+   .team-heading{
+    text-align: center;
+   color: #fff;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+
+   }
+
+   .team-cards{
+    background-color:white;
+    border: 2px solid white;
+    border-radius: 15px;
+    height: auto;
+    width:312px;
+    margin:30px;
+}
+.team-cards:hover{
+    transform: scale(1.03);
+    transition: 0.1s ease;
+    box-shadow: 2px 4px 10px 0px gray ;
+}
+.team-card-img{
+    height: 230px;
+    width:280px;
+    border-radius: 30px ;
+    margin:15px 15px;
+    box-shadow: 0 0 5px 3px grey;
+}
+.member-name{
+    color:#000;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+.member-info{
+    color:black;
+    padding:25px;
+    margin:8px;
+    font-family:initial;
+   text-align: center;
+   font-size: 22px;
+}
+
    .footer{
     background: #fff;
     height: 300px;
@@ -186,9 +237,9 @@ h2{
     }
     .navbar-icon{
         padding-left: 5px;
-        height: 50px;
+        height: 40px;
         position: relative;
-        bottom: 15px;
+        bottom: 20px;
     
     }
     
@@ -215,12 +266,8 @@ h2{
         top: -5px;
         right: 15px;
     }
-.navbar-icon{
-     padding-left: 10px;
-     height: 80px;
-     position: relative;
-     bottom:15px;
- }
+
+
  .footer{
     padding: 30px;
 }
@@ -234,9 +281,9 @@ h2{
     font-size: 17px;
 }
 .footer-img{
-    height: 140px;
+    height: 70px;
     position: relative;
-    bottom:17px;
+    bottom:1px;
     left:-15px;
 }
 
@@ -247,7 +294,7 @@ h2{
 
 
 }
-@media screen and (min-width:601px) and (max-width:750px){
+@media screen and (min-width:601px) and (max-width:800px){
     .navbar{
         height: 43px;
         display: flex;
@@ -255,9 +302,9 @@ h2{
     }
     .navbar-icon{
         padding-left: 5px;
-        height: 80px;
+        height: 45px;
         position: relative;
-        bottom: 15px;
+        bottom: 20px;
     
     }
     
@@ -288,6 +335,7 @@ h2{
     position: relative;
     bottom:15px;
     left:-10px;
+    margin-top: 35px;
 }
 
 .social-m{
