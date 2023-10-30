@@ -41,9 +41,9 @@
     background-color: black;
     color:azure;
     padding:9px;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
-    width:70px;
+    width:95px;
     height:auto;
     font-weight: bold;
     position: relative;
@@ -210,14 +210,15 @@ body {
         height: 50px;
         align-items: center;
       }
+      
       @media screen and (min-width: 500px) and (max-width:768px){
 
         .navbar{
             height: 100px;
-            padding: 10px;
+          
 
             display: flex;
-            flex-wrap: wrap;
+          
       
         }
         .navbar-icon{
