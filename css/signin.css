@@ -215,10 +215,10 @@ body {
 
         .navbar{
             height: 100px;
-          
+            padding: 10px;
 
             display: flex;
-          
+            flex-wrap: wrap;
       
         }
         .navbar-icon{
