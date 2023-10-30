@@ -312,3 +312,65 @@ body{
             border-radius: 10px;
             
         }
+        @media screen and (min-width: 430px) and (max-width:768px){
+
+            .navbar{
+                height: 40px;
+                display: flex;
+                
+            }
+            .navbar-icon{
+                padding-left: 10px;
+                height: 70px;
+                position: relative;
+                bottom: 10px;
+            
+            }
+            
+            .title{
+                font-size: 20px;
+                position: relative;
+                left: 1px;
+                padding-bottom: 0px;
+                margin-top: 2px;
+            }
+            .menu-icon{
+                font-size: 15px;
+                margin-left: 5px;
+                padding: 3px;
+                
+            }
+            
+            .navbar-menu{
+                position: relative;
+                top: -16px;
+                right: 15px;
+            }
+            .footer{
+                padding: 30px;
+                justify-content: space-between;
+                
+            }
+            .s-column{
+                font-size: 13px;
+                padding-right: 20px;
+                padding-top: 35px;
+                padding-left: 20px;
+            }
+            .h2{
+                font-size: 15px;
+                position: relative;
+                margin: 10px 0;
+            }
+            .footer-img{
+                height: 100px;
+                position: relative;
+                top: 5px;
+            }
+            
+            .social-m{
+                height: 32px;
+            }
+            
+        
+        }
