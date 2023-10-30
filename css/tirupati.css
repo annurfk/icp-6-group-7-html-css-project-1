@@ -74,16 +74,16 @@ body{
     font-weight: 100;
    }
    .taj-mahal-img{
-    height: 500px;
+    height: 700px;
     width: 700px;
-    margin-left: 10px;       
+    margin-left:10px;       
     border-radius: 20px;
-    border: 2px solid #fff;
+    border: 2px solid #100303;
     }
     .taj-mahal-img:hover{
         transform: scale(1.02);
         transition: 0.4s ease;
-        box-shadow: 4px 8px 20px 0px gray ;
+        box-shadow: 4px 8px 20px 0px rgb(9, 32, 2) ;
     
     }
     

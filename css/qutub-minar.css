@@ -171,6 +171,11 @@ body{
     margin: 5px;
     padding: 6px;
    }
+   .food-cards:hover{
+    transform: scale(1.02);
+    transition: 0.4s ease;
+    box-shadow: 4px 8px 20px 0px gray ;
+   }
    .food-img{
     height: 250px;
     width:270px;
@@ -196,6 +201,11 @@ body{
     justify-content:space-evenly;
     margin-top: 30px;
    }
+   .nearby-places-cards:hover{
+    transform: scale(1.02);
+    transition: 0.4s ease;
+    box-shadow: 4px 8px 20px 0px gray ;
+}
    .nearby-places-cards{
     background-color:azure;
     border: 2px solid white;
@@ -226,6 +236,11 @@ body{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    }
+    .hotel-card:hover{
+        transform: scale(1.1);
+        transition: 0.4s ease;
+        box-shadow: 4px 8px 20px 0px gray ;
     }
     .hotel-card{
     background-color: azure;
@@ -293,6 +308,7 @@ body{
         position: relative;
         top: 25px;
     }
+    
     .input{
         border-radius: 15px;
         background-color:white;
