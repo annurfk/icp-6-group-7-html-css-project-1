@@ -281,7 +281,7 @@ table{
     border-radius: 30px;
     text-align: center;
     width: 260px;
-    height: 400px;
+    height: 475px;
     cursor: pointer;
     padding: 20px;
 }
@@ -291,14 +291,14 @@ table{
     box-shadow: 6px 8px 20px 0px gray ;
 }
 .cust-img{
-    height: 190px;
-    width: 160px;
+    height: 170px;
+    width: 155px;
     border-radius: 50%;
 }
 
 .cust-name{
     font-size: 18px;
-    margin-bottom: -10px;
+    margin-bottom: 10px;
 }
 
 .cust-review{
