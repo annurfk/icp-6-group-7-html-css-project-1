@@ -120,6 +120,7 @@ body{
         margin: 5px;
         padding:20px;
         position: relative;
+        margin-left: 60px;
     }
     .review-box:hover{
         transform: scale(0.99);
